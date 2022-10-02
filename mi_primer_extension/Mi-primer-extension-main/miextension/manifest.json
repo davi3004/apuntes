@@ -1,0 +1,11 @@
+{
+    "name":"xD",
+    "description":"Ësta extensión es de broma",
+    "version":"0.1.0",
+    "manifest_version": 3,
+    "content_scripts":[{
+        "matches":["https://www.youtube.com/*"],
+        "css":["styles.css"]
+    }
+]
+}
